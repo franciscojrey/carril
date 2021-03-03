@@ -21,18 +21,3 @@ navLink.forEach(n => n.classList.remove('active'));
 this.classList.add('active');
 }
 navLink.forEach(n => n.addEventListener('click', linkAction));
-
-
-/* DROPDOWN MENU */
-
-const dropdown = document.querySelector('.dropdown');
-const dropdownLinks = document.querySelector('.dropdown__menu');
-const dropdownIcon = document.querySelector('.dropdown__icon');
-const pageWidth = window.matchMedia( "(max-width: 900px)" );
-
-if (pageWidth.matches){
-  dropdown.addEventListener("click", function() {
-    dropdownLinks.classList.toggle('display-dropdown');
-    dropdownIcon.classList.toggle('rotate-icon');    
-  });
-}

@@ -361,6 +361,7 @@ p {
   .home {
     max-width: 1000px;
     text-align: left;
+    height: 30vh;
   }
 
   .home__body {
