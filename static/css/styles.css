@@ -101,14 +101,10 @@ p {
   align-items: center;
 }
 
-.home__body { 
-  padding: 1em;
-}
-
 .home__body h1 {
   color: var(--clr-white);
   font-family: Raleway;
-  font-size: 3.5em;
+  font-size: 3.2em;
   text-align: center;
 }
 
