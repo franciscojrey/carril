@@ -17,31 +17,11 @@ showMenu('header-toggle','nav-menu')
 
 const toggle = document.getElementById('header-toggle');
 const nav = document.getElementById('nav-menu');
-const navLink1 = document.getElementById('link1');
-const navLink2 = document.getElementById('link2');
-const navLink3 = document.getElementById('link3');
-const navLink4 = document.getElementById('link4');   
+const navLink = document.querySelectorAll('.nav__link');
 
-/*HIDDEN*/
-navLink1.addEventListener('click', ()=>{
+function linkAction(){
+  /*Remove menu mobile*/
   nav.classList.toggle('show')
   toggle.classList.toggle('bx-x')
-})
-
-/*HIDDEN*/
-navLink2.addEventListener('click', ()=>{
-  nav.classList.toggle('show')
-  toggle.classList.toggle('bx-x')
-})
-
-/*HIDDEN*/
-navLink3.addEventListener('click', ()=>{
-  nav.classList.toggle('show')
-  toggle.classList.toggle('bx-x')
-})
-
-/*HIDDEN*/
-navLink4.addEventListener('click', ()=>{
-  nav.classList.toggle('show')
-  toggle.classList.toggle('bx-x')
-})
+}
+navLink.forEach(n => n.addEventListener('click', linkAction));
