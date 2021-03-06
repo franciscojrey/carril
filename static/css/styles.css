@@ -88,9 +88,10 @@ p {
 /* --------------- HOME START --------------- */
 
 .home-container {
-  background-image: url("../img/home1.jpg");
+  background-image: url("../img/hom2.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position:top;
+  background-size: cover;
 }
 
 .home {
