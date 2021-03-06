@@ -88,10 +88,11 @@ p {
 /* --------------- HOME START --------------- */
 
 .home-container {
-  background-image: url("../img/hom2.jpg");
+  background-image: url("../img/home1.png");
   background-repeat: no-repeat;
-  background-position:top;
+  background-position: top;
   background-size: cover;
+  padding-top: 6em;
 }
 
 .home {
@@ -361,11 +362,16 @@ p {
 
 /* --------------- HOME BIG SCREEN START --------------- */
 
+.home-container {
+  background-position: top;
+  background-size: cover;
+}
   .home {
     max-width: 1000px;
     text-align: left;
     height: 30vh;
   }
+
 
   .home__body {
     padding-top: 6em;
