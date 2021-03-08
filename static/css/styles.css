@@ -108,7 +108,7 @@ p {
 .home__body h1 {
   color: var(--clr-white);
   font-family: Raleway;
-  font-size: 3.2em;
+  font-size: 2em;
   text-align: center;
 }
 
@@ -362,19 +362,19 @@ p {
 
 /* --------------- HOME BIG SCREEN START --------------- */
 
-.home-container {
-  background-position: top;
-  background-size: cover;
-}
+  .home-container {
+    background-position: top;
+    background-size: cover;
+  }
+  
   .home {
     max-width: 1000px;
     text-align: left;
     height: 30vh;
   }
 
-
-  .home__body {
-    padding-top: 6em;
+  .home__body h1 {
+    font-size: 3.2em;
   }
 
 /* --------------- HOME BIG SCREEN END --------------- */

@@ -115,7 +115,7 @@ a {
 }
 
 .nav__img img {
-  max-height: 90px;
+  max-height: 70px;
 }
 
 .nav__name {
@@ -188,9 +188,6 @@ a {
 
 @media screen and (min-width: 1100px) {
 
-  :root {
-    --header-height: 7rem;
-  }
   body {
     margin: 0;
   }
@@ -224,7 +221,7 @@ a {
     margin-bottom: 0;
   }
   .nav__img img {
-    max-height: 150px;
+    max-height: 90px;
     margin-left: 1.5rem;
   }
   .nav__name {

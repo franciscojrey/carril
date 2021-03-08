@@ -153,7 +153,7 @@ textarea {
 .contact__description {
     color: var(--clr-black);
     font-family: OpenSans;
-    font-size: .7rem;
+    font-size: .5rem;
     margin-bottom: .9em;
     font-weight: lighter;
 }
