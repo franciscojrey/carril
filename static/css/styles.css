@@ -391,7 +391,7 @@ p {
   border-radius: 5px;
   width: 150px;
   display: block;
-  height: 150px;
+  height: 200px;
 }
 
 .staff__box h4 {
@@ -437,7 +437,7 @@ p {
 
 .staff__image {
   width: 250px;
-  height: 250px;
+  height: 300px;
 }
 
 .staff__box-description {
@@ -573,11 +573,6 @@ p {
 
 .staff__box {
   padding: 1.3em;
-}
-
-.staff__image {
-  width: 250px;
-  height: 250px;
 }
 
 .staff__box h4 {
