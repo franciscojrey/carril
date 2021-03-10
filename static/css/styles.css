@@ -348,7 +348,7 @@ p {
 /* --------------- STAFF START --------------- */
 
 #staff {
-  padding: 1em;
+  padding: 1em 1em 4em 1em;
 }
 
 .staff {
@@ -370,8 +370,8 @@ p {
   letter-spacing: 3px;
   line-height: 1.5em;
   text-align: center;
-  text-transform: uppercase;
   margin-bottom: 1em;
+  padding-top: 1em;
   grid-area: title;
 }
 

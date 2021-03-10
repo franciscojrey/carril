@@ -11,7 +11,7 @@ if (isset($_POST['submit'])) {
         header("Location: index.php?contact=empty#form-span");
         exit();
     } else {
-        $mailTo = "mcarril@migueljcarrilsa.com.ar, ccloquell@migueljcarrilsa.com.ar, jescudero@migueljcarril.com.ar, agustinacarril@migueljcarril.com.ar";
+        $mailTo = "mcarril@carril.sba.com.ar, ccloquel@carril.sba.com.ar, jescudero@carril.sba.com.ar, aguscarril@yahoo.com.ar";
         $txt = "Email enviado desde el sitio web www.migueljcarrilsa.com.ar \n\nNombre: ".$name.".\n\n"."Teléfono: ".$telefono.".\n\n"."Mail: ".$mailFrom.".\n\n"."Mensaje: ".$message;
         
         mail($mailTo, $subject, $txt);
