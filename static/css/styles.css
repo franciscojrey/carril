@@ -407,7 +407,7 @@ p {
   height: 40px;
   font-family: Quicksand;
   text-align: left;
-  font-size: .7rem;
+  font-size: .6rem;
   color: rgb(99, 99, 99);
   line-height: 1.9rem;
 }
@@ -438,6 +438,10 @@ p {
 .staff__image {
   width: 250px;
   height: 250px;
+}
+
+.staff__box-description {
+  font-size: .7rem;
 }
 
 
