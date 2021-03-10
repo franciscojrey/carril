@@ -347,6 +347,10 @@ p {
 
 /* --------------- STAFF START --------------- */
 
+#staff {
+  padding: 1em;
+}
+
 .staff {
   margin: 0 auto;
   display: grid;
@@ -385,9 +389,9 @@ p {
 .staff__image {
   margin: 0 auto 2em auto;
   border-radius: 5px;
-  width: 250px;
+  width: 150px;
   display: block;
-  height: 250px;
+  height: 150px;
 }
 
 .staff__box h4 {
@@ -427,6 +431,18 @@ p {
 
 /* --------------- MAP END --------------- */
 
+@media screen and (min-width: 500px) {
+
+/* --------------- staff BIG SCREEN START --------------- */
+
+.staff__image {
+  width: 250px;
+  height: 250px;
+}
+
+
+/* --------------- staff  BIG SCREEN END --------------- */
+}
 @media screen and (min-width: 800px) {
 
   section {
@@ -534,6 +550,9 @@ p {
 
 /* --------------- ABOUT-US BIG SCREEN END --------------- */
 
+}
+
+@media only screen and (min-width: 1100px) {
 /* --------------- staff BIG SCREEN START --------------- */
 
 .staff {
@@ -550,6 +569,11 @@ p {
 
 .staff__box {
   padding: 1.3em;
+}
+
+.staff__image {
+  width: 250px;
+  height: 250px;
 }
 
 .staff__box h4 {
