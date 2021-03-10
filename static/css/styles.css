@@ -88,7 +88,7 @@ p {
 /* --------------- HOME START --------------- */
 
 .home-container {
-  background-image: url("../img/home3.png");
+  background-image: url("../img/home-mobile.png");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -462,6 +462,7 @@ p {
 /* --------------- HOME BIG SCREEN START --------------- */
 
   .home-container {
+    background-image: url("../img/home-mobile.png");
     background-position: top;
     background-size: cover;
   }
@@ -544,6 +545,7 @@ p {
 
   .about-us h3 {
     font-size: 1rem;
+    text-transform: uppercase;
   }
 
   .about-us__description {
