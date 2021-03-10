@@ -308,6 +308,19 @@ p {
   width: 100px;
 }
 
+.about-us__image {
+  max-height: 200px;
+  border-radius: 5px;
+}
+
+.about-us h3 {
+  font-family: OpenSans;
+  padding-top: 1em;
+  font-weight: bold;
+  font-size: .9rem;
+  color: var(--clr-black);
+}
+
 .about-us__description {
   font-family: Quicksand;
   padding-top: 1em;
@@ -331,6 +344,72 @@ p {
 }
 
 /* --------------- ABOUT US END --------------- */
+
+/* --------------- STAFF START --------------- */
+
+.staff {
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: 1fr;
+  grid-template-areas: 
+  "title"
+  "staff__box1"
+  "staff__box2"
+  "staff__box3"
+}
+
+.staff__title {
+  font-size: 1.3rem;
+  font-family: OpenSans;
+  color: var(--clr-black);
+  letter-spacing: 3px;
+  line-height: 1.5em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+  grid-area: title;
+}
+
+.staff__box1 { grid-area: staff__box1; }
+.staff__box2 { grid-area: staff__box2; }
+.staff__box3 { grid-area: staff__box3; }
+
+.staff__box {
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 1em;
+  display: grid;
+}
+
+.staff__image {
+  margin: 0 auto 2em auto;
+  border-radius: 5px;
+  width: 250px;
+  display: block;
+  height: 250px;
+}
+
+.staff__box h4 {
+  text-align: left;
+  color: var(--clr-black);
+  font-family: OpenSans;
+  font-size: .8rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.staff__box-description {
+  height: 40px;
+  font-family: Quicksand;
+  text-align: left;
+  font-size: .7rem;
+  color: rgb(99, 99, 99);
+  line-height: 1.9rem;
+}
+
+
+/* --------------- STAFF END --------------- */
 
 /* --------------- MAP START --------------- */
 
@@ -443,6 +522,10 @@ p {
     font-size: 1.6rem;
   }
 
+  .about-us h3 {
+    font-size: 1rem;
+  }
+
   .about-us__description {
     padding: 0;
     font-size: .8rem;
@@ -450,6 +533,37 @@ p {
   }
 
 /* --------------- ABOUT-US BIG SCREEN END --------------- */
+
+/* --------------- staff BIG SCREEN START --------------- */
+
+.staff {
+  padding: 0 2em;
+  max-width: 1500px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+  ". title ."
+  "staff__box1 staff__box2 staff__box3"
+}
+.staff__title {
+  font-size: 1.4rem;
+}
+
+.staff__box {
+  padding: 1.3em;
+}
+
+.staff__box h4 {
+  padding-top: 0;
+  font-size: .9rem;
+}
+
+.staff__box-description {
+  padding: 0;
+  font-size: .7rem;
+  letter-spacing: 1px;
+}
+
+/* --------------- staff  BIG SCREEN END --------------- */
 }
 
 @media only screen and (min-width: 1300px) {
